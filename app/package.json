@@ -1,0 +1,54 @@
+{
+  "name": "app",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "prod": "vue-cli-service build",
+    "dev": "vue-cli-service build --mode development",
+    "lint": "vue-cli-service lint",
+    "watch": "vue-cli-service build --watch --mode development"
+  },
+  "dependencies": {
+    "axios": "0.18.0",
+    "vue": "2.5.18",
+    "vue-router": "3.0.2",
+    "vuex": "3.0.1"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "3.2.0",
+    "@vue/cli-plugin-eslint": "3.2.1",
+    "@vue/cli-service": "3.2.0",
+    "node-sass": "4.10.0",
+    "sass-loader": "7.1.0",
+    "vue-template-compiler": "2.5.18"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/essential",
+      "eslint:recommended"
+    ],
+    "rules": {},
+    "parserOptions": {
+      "parser": "babel-eslint"
+    }
+  },
+  "postcss": {
+    "plugins": {
+      "autoprefixer": {}
+    }
+  },
+  "babel": {
+    "presets": [
+      "@vue/app"
+    ]
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not ie <= 8"
+  ]
+}

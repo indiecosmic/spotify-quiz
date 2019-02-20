@@ -1,0 +1,21 @@
+{
+  "name": "koa-vue",
+  "version": "1.0.0",
+  "author": "Mattias Rudén <mattias@indiesoft.org>",
+  "license": "MIT",
+  "main": "app.js",
+  "scripts": {
+    "start": "node ./app.js"
+  },
+  "dependencies": {
+    "dotenv": "^6.2.0",
+    "koa": "^2.7.0",
+    "koa-router": "^7.4.0",
+    "koa-static": "^5.0.0",
+    "koa-views": "^6.1.5",
+    "lodash": "^4.17.11",
+    "moment": "^2.24.0",
+    "swig-templates": "^2.0.3"
+  },
+  "devDependencies": {}
+}
