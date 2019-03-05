@@ -10,7 +10,6 @@
     "heroku-postbuild": "yarn --cwd app install && yarn --cwd app prod"
   },
   "dependencies": {
-    "@vue/cli-service": "3.2.0",
     "dotenv": "^6.2.0",
     "koa": "^2.7.0",
     "koa-router": "^7.4.0",
@@ -20,5 +19,7 @@
     "moment": "^2.24.0",
     "swig-templates": "^2.0.3"
   },
-  "devDependencies": {}
+  "devDependencies": {
+    "@vue/cli-service": "3.2.0"
+  }
 }
