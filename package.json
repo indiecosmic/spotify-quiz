@@ -7,7 +7,7 @@
   "private": true,
   "scripts": {
     "start": "node ./app.js",
-    "heroku-postbuild": "cwd && cd app && yarn install && cwd && yarn prod"
+    "heroku-postbuild": "cd app && yarn install && yarn prod"
   },
   "dependencies": {
     "dotenv": "^6.2.0",
