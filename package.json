@@ -7,7 +7,7 @@
   "private": true,
   "scripts": {
     "start": "node ./app.js",
-    "heroku-postbuild": "yarn --cwd app install && yarn --cwd app prod"
+    "heroku-postbuild": "cd app && yarn && yarn prod"
   },
   "dependencies": {
     "dotenv": "^6.2.0",
@@ -19,7 +19,5 @@
     "moment": "^2.24.0",
     "swig-templates": "^2.0.3"
   },
-  "devDependencies": {
-    "@vue/cli-service": "3.2.0"
-  }
+  "devDependencies": {}
 }
