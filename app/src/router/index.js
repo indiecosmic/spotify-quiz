@@ -7,7 +7,7 @@ Vue.use(Router);
 import Routes from './routes';
 export { default as Routes } from './routes';
 
-import { Configuration } from '@/services'
+import Configuration from '@/services/configuration';
 
 export default new Router({
   strict: Configuration.debug,
