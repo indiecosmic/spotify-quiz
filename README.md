@@ -1,5 +1,5 @@
-# koa-vue
-A Heroku-friendly Koa/Vue app
+# Spotify Quiz
+WIP
 ## Setup
 1. Build front-end
 ```
