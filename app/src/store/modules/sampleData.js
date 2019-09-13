@@ -1,4 +1,5 @@
 'use strict';
+import Api from "@/services";
 export default {
     namespaced: true,
     state: {
@@ -6,7 +7,7 @@ export default {
     },
     actions: {
         async loadWeatherForcasts({ commit }) {
-            let weatherForcasts = await this.$api.sampleData.getWeatherForcasts;
+            let weatherForcasts = await Api.sampleData.getWeatherForcasts;
             commit('setWeatherForcasts', weatherForcasts.data);
         }
     },

@@ -4,7 +4,7 @@ import Vue from 'vue';
 import App from './App.vue';
 import Router from './router';
 import Store from './store';
-import { Configuration } from './services';
+import Configuration from '@/services/configuration';
 
 Vue.config.productionTip = Configuration.debug;
 

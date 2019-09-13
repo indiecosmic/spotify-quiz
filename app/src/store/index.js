@@ -4,15 +4,11 @@ import Vue from 'vue';
 import Vuex from 'vuex';
 Vue.use(Vuex)
 
-import { Configuration } from '@/services';
-import { Api } from '@/plugins';
+import Configuration from '@/services/configuration';
 import { SampleData } from './modules';
-
-const apiPlugin = new Api(Configuration.spaConfig);
 
 export default new Vuex.Store({
   strict: Configuration.debug,
-  plugins: [apiPlugin.registerForStore],
   state: {
 
   },
